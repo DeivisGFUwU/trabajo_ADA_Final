@@ -10,6 +10,7 @@ import MenuMant from './components/MenuMant';
 import RegisterPro from './components/registroPro';
 import RegisterMesa from './components/registroMesa';
 import MantTipoProductos from './components/MantTipoProductos';
+import MantenimientoClientes from './components/MantenimientoCliente';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/registro_producto"element={<RegisterPro/>} />
         <Route path="/registro_mesa"element={<RegisterMesa/>} />
         <Route path="/mantenimiento_tipo_productos"element={<MantTipoProductos/>}/>
+        <Route path="/mantenimiento_clientes"element={<MantenimientoClientes/>}/>
       </Routes>
 
     </Router>

@@ -30,6 +30,13 @@ export default function MenuMant() {
                 Tipo de Productos
             </Button>
             <Button
+                type="primary"
+                style={{ marginBottom: '10px', width: '200px' }}
+                onClick={() => navigate('/mantenimiento_clientes')} // Navegación al hacer clic
+            >
+                Mantenimiento Clientes
+            </Button>
+            <Button
                 type="default"
                 style={{ marginTop: '20px', width: '200px' }}
                 onClick={() => navigate('/opciones')} // Navegación al hacer clic en "Salir"
