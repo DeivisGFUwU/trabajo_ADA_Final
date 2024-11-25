@@ -9,10 +9,9 @@ import Opciones from './components/opciones';
 import MenuMant from './components/MenuMant';
 import RegisterPro from './components/registroPro';
 import RegisterMesa from './components/registroMesa';
-import OpciRepo from './components/opciReportes'; 
-import ReportesPedidos from './components/todoreporte';
 import MantTipoProductos from './components/MantTipoProductos';
-
+import MantenimientoClientes from './components/MantenimientoCliente';
+import Menu from './components/menu';
 
 function App() {
   return (
@@ -24,9 +23,9 @@ function App() {
         <Route path="/mantenimiento"element={<MenuMant/>} />
         <Route path="/registro_producto"element={<RegisterPro/>} />
         <Route path="/registro_mesa"element={<RegisterMesa/>} />
-        <Route path="/opciReportes" element={<OpciRepo />} /> 
-        <Route path="/todoreporte" element={<ReportesPedidos/>} />
         <Route path="/mantenimiento_tipo_productos"element={<MantTipoProductos/>}/>
+        <Route path="/mantenimiento_clientes"element={<MantenimientoClientes/>}/>
+        <Route path="/menu" element={<Menu />} />
       </Routes>
 
     </Router>
